@@ -1,22 +1,24 @@
-CREATE TABLE (
+CREATE TABLE series (
   id INTEGER PRIMARY KEY,
   
 );
 
-CREATE TABLE (
+CREATE TABLE subgenres (
   id INTEGER PRIMARY KEY,
   
 );
 
-CREATE TABLE (
+CREATE TABLE authors (
   id INTEGER PRIMARY KEY,
   
 );
 
-CREATE TABLE (
-
+CREATE TABLE books (
+  id INTEGER PRIMARY KEY,
+  
 );
 
-CREATE TABLE (
-
+CREATE TABLE characters (
+  id INTEGER PRIMARY KEY,
+  
 );
