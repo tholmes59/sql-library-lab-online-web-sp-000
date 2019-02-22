@@ -16,5 +16,5 @@ INSERT INTO character_books (id, book_id, character_id) VALUES (9, 4, 5), (10, 4
 
 
 def select_name_and_motto_of_char_with_longest_motto
-  "Write your SQL query here"
+  "SELECT characters.name, characters.motto FROM characters WHERE "
 end
