@@ -1,1 +1,1 @@
-UPDATE species SET 
+UPDATE characters SET 
