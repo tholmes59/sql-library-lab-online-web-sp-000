@@ -15,3 +15,6 @@ INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1), (2, 1,
 INSERT INTO character_books (id, book_id, character_id) VALUES (9, 4, 5), (10, 4, 6), (11, 5, 6), (12, 6, 6), (13, 4, 7), (14, 5, 7), (15, 6, 7), (16, 4, 8);
 
 
+def select_series_title_with_most_human_characters
+  "SELECT series.title FROM series INNER JOIN characters ON series.id = characters.series_id;"
+end
